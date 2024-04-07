@@ -1,0 +1,1 @@
+export { default as NRoomClass } from './NRoomClass.vue'
