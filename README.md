@@ -1,18 +1,27 @@
-# .
+# Тестовый проект NOVA HOTEL & SUITES
 
-This template should help get you started developing with Vue 3 in Vite.
+## Архитектура
+- app
+- features
+- shared
+- widgets
+- pages
 
-## Recommended IDE Setup
+#### App
+Ядро проекта.
+Содержит стили, иконки, роуты, store, и главный App.vue файл
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+#### Shared
+Часто переисполняемые компоненты. Они являются основой для фичи или виджета.
 
-## Type Support for `.vue` Imports in TS
+#### Features
+Переисполняемые компоненты. Используются как часть виджета собрав кусочки из shared, содержит полезную логику для управления виджетом
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+#### Widgets
+Полноценный компонент, который содержит полезную логику управления большей части проекта
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+#### Pages
+Основные страницы проекта
 
 ## Project Setup
 
