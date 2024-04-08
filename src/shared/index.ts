@@ -8,3 +8,4 @@ export { default as NRoomName } from './NRoomName.vue';
 export { default as NRoomDescription } from './NRoomDescription.vue';
 export { default as NPrice } from './NPrice.vue';
 export { default as NPaginationImg } from './NPaginationImg.vue';
+export { default as NArrowControls } from './NArrowControls.vue';
