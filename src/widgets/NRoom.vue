@@ -18,5 +18,3 @@ const roomStore = useRoomStore();
   gap: 20px;
 }
 </style>
-          
-          

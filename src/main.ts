@@ -12,7 +12,7 @@ import { NRoomClass, NRoomInfo } from "@/features";
 
 import { NRoom, NAboutUs } from "@/widgets";
 
-import { NButton, NStar, NClass, NCall, NMail, NUnion, NRoomName, NRoomDescription } from "@/shared";
+import { NButton, NStar, NClass, NCall, NMail, NUnion, NRoomName, NRoomDescription, NPaginationImg } from "@/shared";
 
 
 // shared
@@ -24,6 +24,8 @@ app.component('NMail', NMail)
 app.component('NUnion', NUnion)
 app.component('NRoomName', NRoomName)
 app.component('NRoomDescription', NRoomDescription)
+app.component('NPaginationImg', NPaginationImg)
+
 
 
 // features
