@@ -4,4 +4,6 @@ export { default as NClass } from './NClass.vue';
 export { default as NCall } from './NCall.vue';
 export { default as NMail } from './NMail.vue';
 export { default as NUnion } from './NUnion.vue';
-
+export { default as NRoomName } from './NRoomName.vue';
+export { default as NRoomDescription } from './NRoomDescription.vue';
+export { default as NPrice } from './NPrice.vue';

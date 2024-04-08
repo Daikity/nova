@@ -8,9 +8,11 @@ import router from './app/router'
 
 const app = createApp(App)
 
-import { NRoomClass } from "@/features";
+import { NRoomClass, NRoomInfo } from "@/features";
 
-import { NButton, NStar, NClass, NCall, NMail, NUnion } from "@/shared";
+import { NRoom, NAboutUs } from "@/widgets";
+
+import { NButton, NStar, NClass, NCall, NMail, NUnion, NRoomName, NRoomDescription } from "@/shared";
 
 
 // shared
@@ -20,10 +22,19 @@ app.component('NStar', NStar)
 app.component('NCall', NCall)
 app.component('NMail', NMail)
 app.component('NUnion', NUnion)
+app.component('NRoomName', NRoomName)
+app.component('NRoomDescription', NRoomDescription)
 
 
 // features
 app.component('NRoomClass', NRoomClass)
+app.component('NRoomInfo', NRoomInfo)
+
+
+// widgets
+app.component('NRoom', NRoom)
+app.component('NAboutUs', NAboutUs)
+
 
 app.use(createPinia())
 app.use(router)

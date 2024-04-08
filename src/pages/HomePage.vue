@@ -13,8 +13,17 @@
       <img src="../app/assets/logo.svg">
     </div>
   </header>
-  <main></main>
-  <footer></footer>
+  <main>
+    <NRoom />
+    <NAboutUs />
+  </main>
+  <footer>
+    <div>
+      <img src="../app/assets/logo.svg">
+    </div>
+    <span>2024, Все права защищены</span>
+    <span>AZAT.TEAM</span>
+  </footer>
 </template>
 
 <script setup lang="ts">
@@ -47,6 +56,25 @@ header {
     display: flex;
     justify-content: center;
     width: 100%;
+  }
+}
+footer {
+  height: 176px;
+  background: var(--footer-dark-turquoise);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 21.5rem;
+  span {
+    color: var(--main-light-orange);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24.38px;
+    text-align: left;
+  }
+
+  img {
+    width: 179px;
   }
 }
 </style>
