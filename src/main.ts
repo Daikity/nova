@@ -10,7 +10,7 @@ const app = createApp(App)
 
 import { NRoomClass, NRoomInfo, NImgCarousel } from "@/features";
 
-import { NRoom, NAboutUs } from "@/widgets";
+import { NRoom, NAboutUs, NContacts } from "@/widgets";
 
 import {
     NButton, NStar, NClass,
@@ -44,7 +44,7 @@ app.component('NImgCarousel', NImgCarousel)
 // widgets
 app.component('NRoom', NRoom)
 app.component('NAboutUs', NAboutUs)
-
+app.component('NContacts', NContacts)
 
 app.use(createPinia())
 app.use(router)
