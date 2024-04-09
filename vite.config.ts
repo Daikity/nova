@@ -12,6 +12,15 @@ export default defineConfig({
     vueJsx(),
     VueDevTools(),
   ],
+  base: './',
+  build: {
+    // Настройки сборки
+    target: 'modules', // Цель сборки - модули JavaScript
+    outDir: 'dist', // Папка для собранных файлов
+    assetsDir: '', // Папка для статических ресурсов (например, изображения)
+    sourcemap: true, // Генерировать sourcemaps для отладки
+    minify: 'terser', // Минимизация кода с помощью Terser
+  },
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
