@@ -3,7 +3,7 @@ export interface RoomData {
     roomClass: RoomClass;
     description: string;
     price: number;
-    additionalServices?: Array<AdditionalServices>;
+    additionalServices?: AdditionalServices;
     images: Array<Images>;
 }
 
@@ -19,8 +19,19 @@ export interface RoomClass {
     maxStars?: number;
     roomType: string;
 }
-export interface AdditionalServices { }
+export interface AdditionalServices {
+    shortServices: Array<ShortService>;
+    longServices: Array<LongService>;
+}
 
+export interface ShortService {
+    name: string;
+    description: string;
+}
+export interface LongService {
+    name: string;
+    iconUrl: string;
+}
 
 export interface Images {
     url: string;

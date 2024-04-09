@@ -8,7 +8,7 @@ const props = defineProps<Props>()
 
 <template>
     <div class="room-price">
-        <span>От {{ props.price }} ₽</span>
+        <span>от {{ props.price }} ₽</span>
     </div>
 </template>
 
