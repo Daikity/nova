@@ -16,7 +16,7 @@ import {
     NButton, NStar, NClass,
     NCall, NMail, NUnion, NRoomName,
     NRoomDescription, NPaginationImg,
-    NArrowControls
+    NArrowControls, NPrice
 } from "@/shared";
 
 
@@ -31,6 +31,8 @@ app.component('NRoomName', NRoomName)
 app.component('NRoomDescription', NRoomDescription)
 app.component('NPaginationImg', NPaginationImg)
 app.component('NArrowControls', NArrowControls)
+app.component('NPrice', NPrice)
+
 
 
 // features
