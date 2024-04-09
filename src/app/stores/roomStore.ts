@@ -22,6 +22,17 @@ export const useRoomStore = defineStore('room', () => {
         maxStars: 5,
       },
       additionalServices: [],
+      images: [
+        {
+          url: 'src/app/assets/img/36ffdea35887be7ee26fa6040c49d846.png',
+        },
+        {
+          url: 'src/app/assets/img/ba434f198b7a15246704d2051c43a7d4.png',
+        },
+        {
+          url: 'src/app/assets/img/d4844d5a9c44eeb09c92a709d31818d9.png',
+        },
+      ],
     },
   ])
 

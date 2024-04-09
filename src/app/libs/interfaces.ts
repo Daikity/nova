@@ -4,6 +4,7 @@ export interface RoomData {
     description: string;
     price: number;
     additionalServices?: Array<AdditionalServices>;
+    images: Array<Images>;
 }
 
 export interface RoomName {
@@ -19,3 +20,8 @@ export interface RoomClass {
     roomType: string;
 }
 export interface AdditionalServices { }
+
+
+export interface Images {
+    url: string;
+}
