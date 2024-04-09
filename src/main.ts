@@ -8,7 +8,7 @@ import router from './app/router'
 
 const app = createApp(App)
 
-import { NRoomClass, NRoomInfo } from "@/features";
+import { NRoomClass, NRoomInfo, NImgCarousel } from "@/features";
 
 import { NRoom, NAboutUs } from "@/widgets";
 
@@ -36,6 +36,7 @@ app.component('NArrowControls', NArrowControls)
 // features
 app.component('NRoomClass', NRoomClass)
 app.component('NRoomInfo', NRoomInfo)
+app.component('NImgCarousel', NImgCarousel)
 
 
 // widgets
