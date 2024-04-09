@@ -33,6 +33,7 @@ const right = (): void => emits('right');
         display: flex;
         align-items: center;
         cursor: pointer;
+        padding: 0 8px;
         transform: $rotate;
       }
   }

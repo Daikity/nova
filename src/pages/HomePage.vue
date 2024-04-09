@@ -16,6 +16,7 @@
   <main>
     <NRoom />
     <NAboutUs />
+    <NContacts />
   </main>
   <footer>
     <div>
